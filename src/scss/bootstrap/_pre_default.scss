@@ -1,0 +1,28 @@
+$enable-caret: false;
+$enable-rounded: false;
+$enable-shadows: false;
+$enable-gradients: false;
+$enable-transitions: false;
+$enable-prefers-reduced-motion-media-query: false;
+$enable-grid-classes: true;
+$enable-pointer-cursor-for-buttons: false;
+$enable-print-styles: true;
+$enable-responsive-font-sizes: false;
+$enable-validation-icons: false;
+$enable-deprecation-messages: false;
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+// Could be 100%
+$container-max-widths: (
+  xl: 1240px
+);
+$container-max-widths: map-remove($container-max-widths, "lg", "md", "sm");
+// side margins should be 40px from tablet up to desktop
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+// $grid-columns: 12;
+$grid-gutter-width: 40px;
