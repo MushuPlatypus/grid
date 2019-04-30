@@ -8,7 +8,7 @@ function App() {
         <Container>
           <Row>
             <Col>
-              <div className="nav">Navigation</div>
+              <nav className="nav">Navigation</nav>
             </Col>
           </Row>
         </Container>
@@ -16,7 +16,7 @@ function App() {
       <Container>
         <Row>
           <Col>
-            <div className="hero">Hero block</div>
+            <header className="hero">Hero block</header>
           </Col>
         </Row>
         <Row>
@@ -69,7 +69,7 @@ function App() {
           </Col>
         </Row>
       </Container>
-      <div className="footer-container">
+      <footer className="footer-container">
         <Container>
           <Row>
             <Col>
@@ -77,7 +77,7 @@ function App() {
             </Col>
           </Row>
         </Container>
-      </div>
+      </footer>
     </div>
   );
 }
