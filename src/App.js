@@ -59,6 +59,41 @@ function App() {
         </Row>
         <Row>
           <Col>
+            <div className="textAndImage">
+              <Row>
+                <Col xs={{ span: 8 }} md={{ span: 8 }}>
+                  <div className="embed-responsive embed-responsive-16by9">
+                    <iframe
+                      width="560"
+                      height="315"
+                      src="https://www.youtube.com/embed/4hoe59wpv2k"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      title="Snoopy and Woodstock Camping Scene"
+                    />
+                  </div>
+                </Col>
+                <Col xs={{ span: 4 }} md={{ span: 4 }}>
+                  <div className="textAndImage__text">
+                    <p>
+                      Båtturer är perfekta för grupper. Du kan resa på en av
+                      våra paketerade minisemester med dina vänner eller vara
+                      värd för en affärskonferens.{" "}
+                    </p>
+                    <p>
+                      Oavsett vilken typ av resa du söker, kan vårt team som är
+                      ansvarigt för gruppresor hjälpa dig att organisera den. Då
+                      får du exakt det du vill ha till ett bra pris.
+                    </p>
+                  </div>
+                </Col>
+              </Row>
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
             <div className="contentblock">Content block</div>
           </Col>
           <Col>

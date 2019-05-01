@@ -1,11 +1,29 @@
+/*!
+ * Modify classes to make grid behave
+ */
+
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+// Add margins between rows
 .row + .row {
   margin-top: 40px;
 }
 
+// When columns stack, add space between them
 .row [class*="col"] + [class*="col"] {
   margin-top: 40px;
 }
 
+// Make all columns full width on mobile
 @include media-breakpoint-down(sm) {
   .container {
     padding-left: 0;
